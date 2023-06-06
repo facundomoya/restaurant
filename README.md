@@ -15,6 +15,8 @@ The project is simple and does not have a functionality other than the practice 
 
 ## DEMO
 
+[Restaurant](https://restaurantpractice.netlify.app/)
+
 ## Author
 
 * Facundo Moya
