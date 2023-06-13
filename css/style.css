@@ -159,7 +159,8 @@ footer p {
 }
 
 /* medias queries */
-/* phones */
+
+/* cell phones */
 @media all and (min-width: 321px) and (max-width: 767px) {
   nav {
     padding: 20px;
