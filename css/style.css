@@ -185,6 +185,7 @@ footer p {
 
   #imagenPrincipal {
     height: 400px;
+    object-fit: cover;
   }
 
   #imagenLogo {
@@ -203,7 +204,8 @@ footer p {
   }
 
   #subTitulo {
-    font-size: 10px;
+    font-size: 12px;
+    width: 100%;
   }
 
   #positionTitulos {
