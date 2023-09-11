@@ -205,7 +205,7 @@ footer p {
 
   #subTitulo {
     font-size: 12px;
-    width: 100%;
+    width: auto;
   }
 
   #positionTitulos {
