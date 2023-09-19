@@ -3,98 +3,6 @@
   padding: 0;
 }
 
-nav {
-  background: rgba(21, 21, 21, 0.8);
-  padding: 35px 0px;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0px 5px;
-  font-size: 20px;
-}
-
-nav a:hover {
-  color: tomato;
-}
-
-hr {
-  margin: 0px 75px;
-}
-
-#imagenPrincipal {
-  width: 100%;
-  position: relative;
-  z-index: -2;
-}
-
-#imagenLogo {
-  width: 150px;
-  position: fixed;
-  top: 0;
-  left: 100px;
-}
-
-#imagenChat {
-  position: fixed;
-  bottom: 35px;
-  right: 35px;
-  width: 65px;
-  border-radius: 50%;
-  padding: 9px;
-  background: rgb(10, 181, 187);
-}
-
-#titulo {
-  color: white;
-  font-size: 75px;
-  text-align: center;
-  margin: 10px 0px;
-}
-
-#subTitulo {
-  color: white;
-  font-size: 22px;
-  text-align: center;
-  margin: 10px 0px;
-}
-
-#positionTitulos {
-  position: absolute;
-  top: 500px;
-  width: 100%;
-  z-index: -1;
-}
-
-.contenedor {
-  text-align: center;
-}
-
-.tituloMain {
-  font-size: 30px;
-  margin: 20px 0px;
-}
-
-.textoMain {
-  text-align: justify;
-  margin: 0px 30px 0px 30px;
-  font-size: 17px;
-}
-
-#imagenChef {
-  margin-top: 30px;
-}
-
-.nuestroMenu {
-  background: rgba(88, 87, 87, 0.15);
-  margin-top: 30px;
-  padding-top: 75px;
-}
-
 table {
   margin: 25px 30px 0px 30px;
   padding-bottom: 50px;
@@ -119,9 +27,27 @@ tr:nth-child(even) {
   background: rgba(255, 255, 255, 0.466);
 }
 
-.precio {
-  color: rgba(39, 174, 96, 1);
-  font-weight: bold;
+nav {
+  background: rgba(21, 21, 21, 0.8);
+  padding: 35px 0px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 5px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  color: tomato;
+}
+
+hr {
+  margin: 0px 75px;
 }
 
 footer {
@@ -147,20 +73,92 @@ footer p {
   margin: 10px 0px;
 }
 
-#posicionTextoFooter {
+.container {
+  text-align: center;
+}
+
+.maintitle {
+  font-size: 30px;
+  margin: 20px 0px;
+}
+
+.maintext {
+  text-align: justify;
+  margin: 0px 30px 0px 30px;
+  font-size: 17px;
+}
+
+.ourmenu {
+  background: rgba(88, 87, 87, 0.15);
+  margin-top: 30px;
+  padding-top: 75px;
+}
+
+.price {
+  color: rgba(39, 174, 96, 1);
+  font-weight: bold;
+}
+
+#mainimg {
+  width: 100%;
+  position: relative;
+  z-index: -2;
+}
+
+#logoimg {
+  width: 150px;
+  position: fixed;
+  top: 0;
+  left: 100px;
+}
+
+#chatimg {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  width: 65px;
+  border-radius: 50%;
+  padding: 9px;
+  background: rgb(10, 181, 187);
+}
+
+#title {
+  color: white;
+  font-size: 75px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+#subtitle {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+#titleposition {
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  z-index: -1;
+}
+
+#chefimg {
+  margin-top: 30px;
+}
+
+#footertextposition {
   position: relative;
   top: 20px;
 }
 
-#imagenLogo2 {
+#logoimg2 {
   width: 150px;
   position: relative;
   top: 15px;
 }
 
 /* media queries */
-
-/* cell phones */
 @media all and (min-width: 321px) and (max-width: 767px) {
   nav {
     padding: 20px;
@@ -183,69 +181,68 @@ footer p {
     padding: 30px 5px;
   }
 
-  #imagenPrincipal {
+  footer p {
+    font-size: 16px;
+  }
+
+  #mainimg {
     height: 400px;
     object-fit: cover;
   }
 
-  #imagenLogo {
+  #logoimg {
     width: 90px;
     position: fixed;
     top: 5px;
     left: 5px;
   }
 
-  #imagenChef {
+  #chefimg {
     width: 330px;
   }
 
-  #titulo {
+  #title {
     font-size: 35px;
   }
 
-  #subTitulo {
-    font-size: 12px;
+  #subtitle {
+    font-size: 11px;
     width: 100%;
   }
 
-  #positionTitulos {
+  #titleposition {
     position: absolute;
     top: 150px;
     width: 100%;
     z-index: -1;
   }
 
-  #imagenChat {
+  #chatimg {
     z-index: 1;
     width: 50px;
     padding: 5px;
     bottom: 100px;
     right: 20px;
   }
-
-  footer p {
-    font-size: 16px;
-  }
 }
 
-/* tablets */
 @media all and (min-width: 768px) and (max-width: 991px) {
-  #titulo {
+  #title {
     font-size: 55px;
   }
 
-  #subTitulo {
+  #subtitle {
     font-size: 25px;
   }
 
-  #positionTitulos {
+  #titleposition {
     position: absolute;
     top: 160px;
     width: 100%;
     z-index: -1;
   }
 
-  #imagenLogo {
+  #logoimg {
     width: 120px;
     position: fixed;
     top: 10px;
@@ -253,7 +250,6 @@ footer p {
   }
 }
 
-/* extra small devices */
 @media all and (max-width: 320px) {
   nav {
     padding: 10px;
@@ -265,36 +261,6 @@ footer p {
 
   hr {
     margin: 0px 25px;
-  }
-
-  #imagenPrincipal {
-    height: 200px;
-  }
-
-  #titulo {
-    font-size: 30px;
-  }
-
-  #subTitulo {
-    font-size: 9px;
-  }
-
-  #positionTitulos {
-    position: absolute;
-    top: 50px;
-    width: 100%;
-    z-index: -1;
-  }
-
-  #imagenChef {
-    width: 250px;
-  }
-
-  #imagenLogo {
-    width: 60px;
-    position: fixed;
-    top: 2px;
-    left: 5px;
   }
 
   table {
@@ -317,7 +283,37 @@ footer p {
     font-size: 15px;
   }
 
-  #imagenChat {
+  #mainimg {
+    height: 200px;
+  }
+
+  #title {
+    font-size: 30px;
+  }
+
+  #subtitle {
+    font-size: 9px;
+  }
+
+  #titleposition {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    z-index: -1;
+  }
+
+  #chefimg {
+    width: 250px;
+  }
+
+  #logoimg {
+    width: 60px;
+    position: fixed;
+    top: 2px;
+    left: 5px;
+  }
+
+  #chatimg {
     z-index: 1;
     width: 50px;
     padding: 5px;
@@ -326,16 +322,15 @@ footer p {
   }
 }
 
-/* extra large devices */
 @media all and (min-width: 1024px) and (max-width: 1280px) {
-  #positionTitulos {
+  #titleposition {
     position: absolute;
     top: 200px;
     width: 100%;
     z-index: -1;
   }
 
-  #subTitulo {
+  #subtitle {
     font-size: 30px;
   }
 }
