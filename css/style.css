@@ -133,7 +133,7 @@ footer p {
   color: white;
   font-size: 22px;
   text-align: center;
-  margin: 10px 0px;
+  margin: 10px 550px;
 }
 
 #titleposition {
@@ -206,8 +206,9 @@ footer p {
   }
 
   #subtitle {
-    font-size: 11px;
+    font-size: 14px;
     width: 100%;
+    margin: 10px 0px;
   }
 
   #titleposition {
@@ -232,7 +233,8 @@ footer p {
   }
 
   #subtitle {
-    font-size: 25px;
+    font-size: 30px;
+    margin: 10px 0px;
   }
 
   #titleposition {
@@ -293,6 +295,7 @@ footer p {
 
   #subtitle {
     font-size: 9px;
+    margin: 10px 0px;
   }
 
   #titleposition {
@@ -332,5 +335,6 @@ footer p {
 
   #subtitle {
     font-size: 30px;
+    margin: 10px 0px;
   }
 }
