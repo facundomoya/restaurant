@@ -77,18 +77,18 @@ footer p {
   text-align: center;
 }
 
-.maintitle {
+.subtitle {
   font-size: 30px;
   margin: 20px 0px;
 }
 
-.maintext {
+.subtext {
   text-align: justify;
   margin: 0px 30px 0px 30px;
   font-size: 17px;
 }
 
-.ourmenu {
+.our-menu {
   background: rgba(88, 87, 87, 0.15);
   margin-top: 30px;
   padding-top: 75px;
@@ -99,20 +99,20 @@ footer p {
   font-weight: bold;
 }
 
-#mainimg {
+.main-img {
   width: 100%;
   position: relative;
   z-index: -2;
 }
 
-#logoimg {
+.navbar-logo {
   width: 150px;
   position: fixed;
   top: 0;
   left: 100px;
 }
 
-#chatimg {
+.chat-img {
   position: fixed;
   bottom: 35px;
   right: 35px;
@@ -122,40 +122,40 @@ footer p {
   background: rgb(10, 181, 187);
 }
 
-#title {
+.chef-img {
+  margin-top: 30px;
+}
+
+.footer-text {
+  position: relative;
+  top: 20px;
+}
+
+.footer-logo {
+  width: 150px;
+  position: relative;
+  top: 15px;
+}
+
+.main-title {
   color: white;
   font-size: 75px;
   text-align: center;
   margin: 10px 0px;
 }
 
-#subtitle {
+.main-text {
   color: white;
   font-size: 30px;
   text-align: center;
-  margin: 10px 0px;
+  margin: 10px 500px;
 }
 
-#titleposition {
+.main-title-position {
   position: absolute;
-  top: 500px;
+  top: 400px;
   width: 100%;
   z-index: -1;
-}
-
-#chefimg {
-  margin-top: 30px;
-}
-
-#footertextposition {
-  position: relative;
-  top: 20px;
-}
-
-#logoimg2 {
-  width: 150px;
-  position: relative;
-  top: 15px;
 }
 
 /* media queries */
@@ -192,43 +192,39 @@ footer p {
     font-size: 15px;
   }
 
-  #mainimg {
-    height: 200px;
-  }
-
-  #title {
-    font-size: 30px;
-  }
-
-  #subtitle {
-    font-size: 9px;
-    margin: 10px 0px;
-  }
-
-  #titleposition {
-    position: absolute;
-    top: 50px;
-    width: 100%;
-    z-index: -1;
-  }
-
-  #chefimg {
+  .chef-img {
     width: 250px;
   }
 
-  #logoimg {
-    width: 60px;
-    position: fixed;
-    top: 2px;
-    left: 5px;
-  }
-
-  #chatimg {
+  .chat-img {
     z-index: 1;
     width: 50px;
     padding: 5px;
     bottom: 95px;
     right: 6px;
+  }
+
+  .main-img {
+    height: 200px;
+  }
+
+  .main-title {
+    font-size: 30px;
+  }
+
+  .main-text {
+    font-size: 9px;
+    margin: 10px 0px;
+  }
+
+  .main-title-position {
+    top: 50px;
+  }
+
+  .navbar-logo {
+    width: 60px;
+    top: 2px;
+    left: 5px;
   }
 }
 
@@ -258,78 +254,80 @@ footer p {
     font-size: 16px;
   }
 
-  #mainimg {
-    height: 400px;
-    object-fit: cover;
-  }
-
-  #logoimg {
-    width: 90px;
-    position: fixed;
-    top: 5px;
-    left: 5px;
-  }
-
-  #chefimg {
+  .chef-img {
     width: 330px;
   }
 
-  #title {
-    font-size: 35px;
-  }
-
-  #subtitle {
-    font-size: 14px;
-    width: 100%;
-    margin: 10px 0px;
-  }
-
-  #titleposition {
-    position: absolute;
-    top: 150px;
-    width: 100%;
-    z-index: -1;
-  }
-
-  #chatimg {
+  .chat-img {
     z-index: 1;
     width: 50px;
     padding: 5px;
     bottom: 100px;
     right: 20px;
   }
+
+  .main-img {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .navbar-logo {
+    width: 90px;
+    top: 5px;
+    left: 7px;
+  }
+
+  .main-title {
+    font-size: 35px;
+  }
+
+  .main-text {
+    font-size: 14px;
+    margin: 10px 35px;
+  }
+
+  .main-title-position {
+    top: 150px;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
-  #title {
+  .main-title {
     font-size: 55px;
   }
 
-  #subtitle {
+  .main-text {
     font-size: 30px;
     margin: 10px 0px;
   }
 
-  #titleposition {
-    position: absolute;
+  .main-title-position {
     top: 160px;
-    width: 100%;
-    z-index: -1;
   }
 
-  #logoimg {
+  .navbar-logo {
     width: 120px;
-    position: fixed;
     top: 10px;
     left: 40px;
   }
 }
 
-@media all and (min-width: 992px) {
-  #titleposition {
-    position: absolute;
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .main-text {
+    margin: 10px 130px;
+  }
+
+  .main-title-position {
     top: 200px;
-    width: 100%;
-    z-index: -1;
+  }
+}
+
+@media all and (min-width: 1201px) and (max-width: 1400px) {
+  .main-text {
+    margin: 10px 250px;
+  }
+
+  .main-title-position {
+    top: 250px;
   }
 }
