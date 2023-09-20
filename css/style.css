@@ -325,7 +325,7 @@ footer p {
   }
 }
 
-@media all and (min-width: 992px){
+@media all and (min-width: 992px) {
   #titleposition {
     position: absolute;
     top: 200px;
