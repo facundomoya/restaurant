@@ -7,6 +7,12 @@ Despite being a simple one-page site, it is fully responsive for all types of de
 
 The project is simple and does not have a functionality other than the practice of position. Even so, it has a clear design that tries to show images as a description of the menu and about the restaurant itself. It was also practiced how to design a table and you can see a clear design of the *navbar* as well as the *footer*.
 
+## Git Branches
+
+In this project, we use a single branch. Here is an overview of that branch:
+
+**master:** The `master` branch is our main branch. In this example this single branch was used.
+
 ## Project Status
 
 <h4 align="center">
